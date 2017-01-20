@@ -3,6 +3,8 @@ AmazonScraper
 
 Amazon crawler that scrapes product information based on an inputted product search string from another retailer to provide price comparison data
 
+The retailer being used to provide price comparison data is: http://www.jomashop.com/
+
 This crawler uses Scrapy_ and uses Splash_ to render javascript on the given page. Follow the guides below to set them up in your local environment.
 
 Splash runs in a docker container, see here for installation guide: Docker_
