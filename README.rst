@@ -1,4 +1,6 @@
-# AmazonScraper
+AmazonScraper
+========
+
 Amazon crawler that scrapes product information based on an inputted product search string from another retailer to provide price comparison data
 
 This crawler uses Scrapy_ and uses Splash_ to render javascript on the given page. Follow the guides below to set them up in your local environment.
