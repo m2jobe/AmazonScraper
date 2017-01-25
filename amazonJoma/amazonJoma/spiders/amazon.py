@@ -1,3 +1,7 @@
+
+
+
+
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy_splash import SplashRequest
@@ -38,8 +42,8 @@ end
 """
 
 class AmazonSpider(scrapy.Spider):
-    http_user = "polySpider"
-    http_pass = "spiderman"
+    #http_user = "spidy" only needed if you set up authentication for your splash servers
+    #http_pass = "spiderman"
     name = "amazon"
     allowed_domains = ["amazon.com", "jomashop.com"]
     #start_urls = ['http://amazon.com/']
